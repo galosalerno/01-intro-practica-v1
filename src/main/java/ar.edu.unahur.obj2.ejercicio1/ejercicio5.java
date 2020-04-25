@@ -22,10 +22,16 @@ public class ejercicio5 {
                 Integer a = conteo[i] ;
                 Integer nuevoValor = a + 1;
                 conteo[i]=nuevoValor;
-                i+=1;
+
             }
+            i+=1;
         }
+        System.out.println(conteo[0]);
         System.out.println(conteo[1]);
+        System.out.println(conteo[2]);
+        //lo que me falta solucionar es como detectar si una palabra tiene mas de una letra repetidas veces.
+        // ejemplo:CASA tiene 2 A pero con mi algoritmo me devuelve 1.
+
     }
 
 
