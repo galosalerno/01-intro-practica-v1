@@ -15,16 +15,17 @@ public class ejercicio5 {
         System.out.println("ingrese una palabra");
         String palabra = ingreso.nextLine();
         int[] conteo = new int[26];
+        int i = 0;
         for(String letra : abecedario()){
-            int i = 0;
+
             if(palabra.contains(letra)){
                 Integer a = conteo[i] ;
                 Integer nuevoValor = a + 1;
                 conteo[i]=nuevoValor;
-                i++;
+                i+=1;
             }
         }
-
+        System.out.println(conteo[1]);
     }
 
 
